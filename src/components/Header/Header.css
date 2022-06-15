@@ -1,3 +1,22 @@
+#header {
+  width: 100%;
+  position: relative;
+}
+
 #signup-container {
   background-color: var(--background-color);
+}
+
+#header-bg-img {
+  width: 100%;
+}
+
+#header > #header-background {
+  position: absolute;
+  z-index: 0;
+}
+
+#header > #signup-container {
+  position: absolute;
+  z-index: 1;
 }

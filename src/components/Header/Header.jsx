@@ -15,18 +15,27 @@ const Header = ({
 }) => {
   return (
     <>
-      <div id="header-background">
-        <img src={Hero} alt="Samantha Hall with cityscape background" />
-      </div>
-      <div id="signup-container">
-        <img src={Logo} alt="Samantha Hall - Democrat for Senate" />
-        <Signup 
-          form={form}
-          setForm={setForm}
-          handleChange={handleChange}
-          handleSubmit={handleSubmit}
-        />
-      </div>
+      <section id="header">
+        <div id="header-background">
+          <img 
+            src={Hero} 
+            alt="Samantha Hall with cityscape background"
+            id="header-bg-img" 
+          />
+        </div>
+        <div id="signup-container">
+          <img 
+            src={Logo} 
+            alt="Samantha Hall - Democrat for Senate" 
+          />
+          <Signup 
+            form={form}
+            setForm={setForm}
+            handleChange={handleChange}
+            handleSubmit={handleSubmit}
+          />
+        </div>
+      </section>
     </>
   );
 }
