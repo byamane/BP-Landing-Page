@@ -9,7 +9,11 @@ const About = (props) => {
     <>
       <h1>MEET SAMANTHA</h1>
       <div id="about-container">
-        <img src={AboutSH} alt="Hero" id="hero-img" width="500" />
+        <img 
+          src={AboutSH}
+          alt="Hero"
+          id="hero-img"
+        />
         <div id="about-blurb">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, maiores.
@@ -22,7 +26,11 @@ const About = (props) => {
           <br/>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere delectus dolore doloribus sunt tempora. Temporibus sint earum doloremque est!
         </p>
-        <img src={Office} alt="Life at the office of Samantha Hall" width="500"/>
+        <img 
+          src={Office}
+          alt="Life at the office of Samantha Hall"
+          id="office-img"
+        />
       </div>
 
     </>

@@ -16,17 +16,11 @@ const Header = ({
   return (
     <>
       <section id="header">
-        <div id="header-background">
-          <img 
-            src={Hero} 
-            alt="Samantha Hall with cityscape background"
-            id="header-bg-img" 
-          />
-        </div>
         <div id="signup-container">
           <img 
             src={Logo} 
-            alt="Samantha Hall - Democrat for Senate" 
+            alt="Samantha Hall - Democrat for Senate"
+            id="signup-logo"
           />
           <Signup 
             form={form}

@@ -1,22 +1,32 @@
 #header {
   width: 100%;
-  position: relative;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  background-image: url("../../assets/images/hero.png");
+  background-size: 1800px 900px;
+  background-position: right;
+}
+
+#header > div {
+  /* display: flex;
+  justify-content: center; */
 }
 
 #signup-container {
-  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(50deg, var(--background-color) 0 85%, rgb(164, 164, 47) 99% 100%);
+  width: 30%;
+  height: 750px;
+  text-align: left;
 }
 
-#header-bg-img {
-  width: 100%;
-}
-
-#header > #header-background {
-  position: absolute;
-  z-index: 0;
-}
-
-#header > #signup-container {
-  position: absolute;
-  z-index: 1;
+#signup-logo {
+  width: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
 }
