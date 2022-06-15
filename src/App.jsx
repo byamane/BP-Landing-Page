@@ -2,9 +2,11 @@ import './App.css';
 import { useState } from 'react';
 
 // Components
-import Nav from './components/Nav';
-import Landing from './pages/Landing';
-import Header from './components/Header';
+import Nav from './components/Nav/Nav';
+import About from './components/About/About';
+import Header from './components/Header/Header';
+import Donate from './components/Donate/Donate'
+import Footer from './components/Footer/Footer';
 
 function App() {
   
@@ -27,7 +29,9 @@ function App() {
         handleChange={handleChange}
         handleSubmit={handleSubmit}
       />
-      <Landing />
+      <Donate />
+      <About />
+      <Footer />
     </div>
   )
 }

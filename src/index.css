@@ -1,8 +1,6 @@
 body {
   margin: 0;
+  --background-color: teal;
 }
 
-.nav-bar > li{
-  display: inline;
-  margin: 0;
-}
+

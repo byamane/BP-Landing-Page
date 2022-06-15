@@ -1,0 +1,8 @@
+#nav-bar {
+  background-color: var(--background-color);
+}
+
+.nav-bar-links > li{
+  display: inline;
+  margin: 0;
+}
