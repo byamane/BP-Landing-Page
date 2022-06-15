@@ -1,3 +1,5 @@
+import "./Signup.css"
+
 const Signup = ({
   form,
   setForm,

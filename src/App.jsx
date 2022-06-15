@@ -4,7 +4,7 @@ import { useState } from 'react';
 // Components
 import Nav from './components/Nav';
 import Landing from './pages/Landing';
-import Signup from './components/Signup';
+import Header from './components/Header';
 
 function App() {
   
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Signup 
+      <Header
         form={form}
         setForm={setForm}
         handleChange={handleChange}
