@@ -19,22 +19,23 @@
 
 #office-img {
   width: 500px;
+  position: relative;
 }
 
 #about-container {
   display: flex;
-  width: 80%;
   flex-direction: row;
   align-items: center;
+  width: 80%;
 }
 
 #office-container {
   display: flex;
+  flex-direction: row;
+  align-items: left;
   margin: 50px 0;
   margin-bottom: 100px;
   width: 80%;
-  flex-direction: row;
-  align-items: left;
 }
 
 #office-blurb {
@@ -59,4 +60,61 @@
 
 #about-blurb > p {
   width: 90%;
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen AND (max-width: 450px) {
+  #about-header {
+    font-size: 1.5rem;
+    color: rgb(8, 51, 84);
+  }
+
+  #about-section {
+    width: 90vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  #hero-img {
+    width: 175px;
+    position: relative;
+    z-index: 0;
+  }
+
+  #office-img {
+    width: 175px;
+    height: 125px;
+    position: relative;
+  }
+
+  #office-blurb {
+    margin-right: 20px;
+    text-align: left;
+    font-size: 0.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  #about-blurb {
+    width: 150px;
+    height: 30px;
+    font-size: 0.5rem;
+  }
+
+  #about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+  }
+  
+  #office-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin: 25px 0;
+    width: 90vw;
+  }
 }

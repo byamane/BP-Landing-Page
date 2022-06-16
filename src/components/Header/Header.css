@@ -1,5 +1,6 @@
 #header {
   width: 100vw;
+  position: relative;
   height: 750px;
   display: flex;
   align-items: center;
@@ -14,7 +15,8 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(50deg, var(--background-color) 0 75%, rgb(179, 179, 92) 99% 100%);
-  width: 30%;
+  width: 50%;
+  min-width: 200px;
   height: 750px;
   text-align: left;
 }
@@ -25,4 +27,28 @@
   display: flex;
   justify-content: left;
   margin-right: 230px;
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen AND (max-width: 450px) {
+  #header {
+    width: 100vw;
+    height: 300px;
+    background-image: url("../../assets/images/hero.png");
+    background-size: 400px 300px;
+    background-position: right;
+    margin: 0;
+  }
+
+  #signup-logo {
+    width: 100px;
+    margin: 5px 0;
+    margin-right: 82px;
+  }
+
+  #signup-container {
+    width: 50%;
+    height: 300px;
+    min-width: 0;
+  }
 }
