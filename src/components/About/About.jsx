@@ -23,11 +23,12 @@ const About = (props) => {
       </div>
 
       <div id="office-container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, laboriosam distinctio sapiente voluptatem exercitationem nesciunt praesentium similique adipisci culpa officia ratione, quod mollitia iure sed quia illo vero neque vitae dolores tempore omnis. Ipsum nisi, saepe ea facere quod libero praesentium distinctio repellat, dolore rerum odit ad eveniet accusamus consectetur? 
+        <div id="office-blurb">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolorem alias officiis esse dolorum maiores quos magnam modi amet obcaecati ipsum dicta, omnis doloremque est provident accusantium laudantium iure optio, fuga ipsam, natus aspernatur culpa? Quasi similique quibusdam accusamus sequi magnam molestiae. Ipsum repellendus, exercitationem, iste saepe voluptas ducimus pariatur hic at, cumque veritatis quaerat consequatur nemo praesentium voluptatibus deserunt? Eum quos repudiandae animi distinctio optio reiciendis soluta aliquid quae, mollitia repellat, iusto ullam omnis totam doloremque rem ea autem.
           <br/>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere delectus dolore doloribus sunt tempora. Temporibus sint earum doloremque est!
-        </p>
+          <br/>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam, perferendis praesentium neque perspiciatis deleniti asperiores placeat quos nostrum vitae quasi facere assumenda vel suscipit! Perferendis laboriosam architecto, odit, aperiam, accusamus rem cupiditate nesciunt dicta harum a consectetur cumque deleniti!
+        </div>
         <img 
           src={Office}
           alt="Life at the office of Samantha Hall"
