@@ -1,5 +1,5 @@
 #header {
-  width: 100%;
+  width: 100vw;
   height: 750px;
   display: flex;
   align-items: center;
@@ -8,17 +8,12 @@
   background-position: right;
 }
 
-#header > div {
-  /* display: flex;
-  justify-content: center; */
-}
-
 #signup-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(50deg, var(--background-color) 0 85%, rgb(164, 164, 47) 99% 100%);
+  background-image: linear-gradient(50deg, var(--background-color) 0 75%, rgb(179, 179, 92) 99% 100%);
   width: 30%;
   height: 750px;
   text-align: left;
@@ -29,4 +24,5 @@
   margin-bottom: 20px;
   display: flex;
   justify-content: left;
+  margin-right: 230px;
 }
