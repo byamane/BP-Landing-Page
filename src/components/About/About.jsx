@@ -6,8 +6,9 @@ import AboutSH from '../../assets/images/about-photo_2.png'
 
 const About = (props) => {
   return (
-    <>
-      <h1>MEET SAMANTHA</h1>
+    <div id="about-section">
+      <h1 id="about-header">MEET SAMANTHA</h1>
+
       <div id="about-container">
         <img 
           src={AboutSH}
@@ -20,7 +21,8 @@ const About = (props) => {
           </p>
         </div>
       </div>
-      <div>
+
+      <div id="office-container">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, laboriosam distinctio sapiente voluptatem exercitationem nesciunt praesentium similique adipisci culpa officia ratione, quod mollitia iure sed quia illo vero neque vitae dolores tempore omnis. Ipsum nisi, saepe ea facere quod libero praesentium distinctio repellat, dolore rerum odit ad eveniet accusamus consectetur? 
           <br/>
@@ -33,7 +35,7 @@ const About = (props) => {
         />
       </div>
 
-    </>
+    </div>
   );
 }
 
