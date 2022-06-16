@@ -3,7 +3,7 @@ import './Donate.css'
 const Donate = (props) => {
   return (
     <div id="donate-container">
-      <h2>DONATE TO SUPPORT SAMANTHA'S CAMPAIGN</h2>
+      <h1 id="donate-header">DONATE TO SUPPORT SAMANTHA'S CAMPAIGN</h1>
       <div className='donate-buttons'>
         <button>
           $25
@@ -11,8 +11,8 @@ const Donate = (props) => {
         <button>
           Other
         </button>
-      </div>
-      <div className='donate-buttons'>
+      {/* </div> */}
+      {/* <div className='donate-buttons'> */}
         <button>
           $50
         </button>
