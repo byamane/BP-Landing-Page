@@ -1,7 +1,6 @@
 import './Header.css'
 
 // Images
-import Hero from '../../assets/images/hero.png'
 import Logo from '../../assets/images/SH-Logo.png'
 
 // Components
